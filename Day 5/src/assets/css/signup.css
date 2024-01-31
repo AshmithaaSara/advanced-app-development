@@ -1,0 +1,110 @@
+.signup-wrapper {
+    max-width: 100%;
+    margin: auto;
+    padding: 100px;
+    background-color: #fff;
+    border: 2px solid darkgrey;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-wrapper h1 {
+    text-align: center;
+    padding:15px;
+    color: #333;
+  }
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  } 
+  
+  
+  button {
+    width: 100%;
+    height: 45px;
+    background: #007bff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3; /* Change to a darker shade on hover */
+    transform: translateY(-2px); /* Move the button slightly up */
+    animation: colorChange 1s infinite; /* Apply a colorful animation */
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background: #007bff;
+    }
+    50% {
+      background: #00ff00; /* Change to green in the middle of the animation */
+    }
+    100% {
+      background: #007bff;
+    }
+  }
+  .signup-register-link {
+    text-align: center;
+  }
+  
+  .signup-register-link p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-register-link a {
+    color: #007bff;
+    text-decoration: none;
+  } 
+  
+.signup-input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .signup-input-box input {
+    width:100%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 40px; /* Adjust the left padding to accommodate the icon */
+  }
+  
+  .signup-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  .image{
+    min-height: 100vh;
+    background-image:url('../images/pexels-liza-summer-6347901.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .demos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    display: flex;
+    font-style: normal;
+    align-items: center;
+    margin-left:10%;
+}
+.signup-main{
+    display:flex;
+    background-color: rgba(240, 240, 240, 0.688);
+}
